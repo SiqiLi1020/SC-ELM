@@ -6,3 +6,8 @@ SC-ELM is a project working for the use of segmentation.Please make sure you hav
    · Meanwhile, following CNN, the convolution and de-convolution operations are utilized to extract and refine boundary and corner features. 
    
    · A large number of output weight matrices are learned by a single-hidden layer feedforward network (SLFN) and then a cross-feedback method is developed to select beneficial weight matrices for accurate segmentation.
+   ##Functions:
+      
+      Cut_patch: perform white balance for each RGB image and convert it to gray. 
+      
+      Cat_patches: spell image patches into a gray image with original size. 
