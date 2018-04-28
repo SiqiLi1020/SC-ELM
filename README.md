@@ -1,7 +1,7 @@
 # SC-ELM：Structure Convolutional Extreme Learning Machine
  ## Definition
    
-   SC-ELM is a project working for the use of segmentation.Please make sure you have the following configures for better use.
+   SC-ELM is a project working for the use of segmentation.　Please make sure you have the following configures for better use.
    
    · Different from the conventional extreme learning machine (ELM), SC-ELM can take an image as input and output a probability map directly with the same resolution of the input image. 
    
