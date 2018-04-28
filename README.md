@@ -12,4 +12,10 @@
      
       Cut_patch: perform white balance for each RGB image and convert it to gray. Then outputs image patches via setting patch size.
       
-      Cat_patches: spell image patches into a gray image with original size. 
+      Cat_patches: spell image patches into a gray image with original size. 
+     
+ ### Contact us
+     
+   Comments and criticism are greatly welcomed
+     
+   E-mail: lisiqi881020@163.com
