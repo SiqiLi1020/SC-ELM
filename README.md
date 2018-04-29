@@ -19,4 +19,4 @@
      
    Comments and criticism are greatly welcomed
      
-   E-mail: lisiqi881020@163.com
+   E-mail: sy.neu.lsq@gmail.com
