@@ -2,23 +2,16 @@ function [train_time, beneficial_weight] = Train_SC_ELM(train_data,train_label,N
 
 % This function is to train SC-ELM and output the SC-ELM-model and beneficial weight set.
 
-% input: train_data: all training upsample maps (x * y * z, x,y: patch size, x=y, z is the patch number);
-%        train_label: all obtained output weights (x * y * z);
-%        NumberofHiddenNeurons: all training labeled images;
-%        KernelSize: the number of the most beneficial output weights;
+% input: train_data: all training data (x * y * z, x,y: patch size, x=y, z is the patch number);
+%        train_label: all training labeled images (x * y * z);
+%        NumberofHiddenNeurons: number of hidden neurons;
+%        KernelSize: size of kernel;
 %        index_number: the number of the most beneficial output weights;
 % output: train_time: trainging time;
 %         beneficial_weight: beneficial weight set;
 %         save SC-ELM-model: include NumberofHiddenNeurons, KernelSize, KernelData, down_Bias, up_Bias and output_weight
 
-
-
 tic;
-%% Load data;
-
-% load youdata.mat
-% load youlabel.mat;
-
 %% Data normalization [-1,1] or [-1,1]
 [x, y, z] = size(train_data);
 for m = 1:z
