@@ -18,7 +18,7 @@
    
    optimize_weight: optimize output weights.
    
-   Test_SC_ELM: output predicted image patches and different evaluation indexes.
+    Test_SC_ELM: output predicted image patches and different evaluation indexes.
 
  ## Contact us
      
