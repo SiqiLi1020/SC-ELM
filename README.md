@@ -10,15 +10,15 @@
    · A large number of output weight matrices are learned by a single-hidden layer feedforward network (SLFN) and then a cross-feedback method is developed to select beneficial weight matrices for accurate segmentation.
  ## Functions
      
-    Cut_patch: perform white balance for each RGB image and convert it to gray. <br>　　　　　 Then outputs image patches via setting patch size.
+   Cut_patch: perform white balance for each RGB image and convert it to gray. <br>　　　　　 Then outputs image patches via setting patch size.
       
-    Cat_patches: spell image patches into a gray image with original size. 
+   Cat_patches: spell image patches into a gray image with original size. 
       
-    Train_SC_ELM: train SC-ELM and output the SC-ELM-model and beneficial weight set.
+   Train_SC_ELM: train SC-ELM and output the SC-ELM-model and beneficial weight set.
    
-    optimize_weight: optimize output weights.
+   optimize_weight: optimize output weights.
    
-    Test_SC_ELM: output predicted image patches and different evaluation indexes.
+   Test_SC_ELM: output predicted image patches and different evaluation indexes.
 
  ## Contact us
      
