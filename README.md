@@ -14,7 +14,9 @@
       
    Cat_patches: spell image patches into a gray image with original size. 
       
-   Train_SC_ELM: 
+   Train_SC_ELM: train SC-ELM and output the SC-ELM-model and beneficial weight set.
+      
+   optimize_weight: optimize output weights
 
  ## Contact us
      
