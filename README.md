@@ -16,10 +16,12 @@
       
    Train_SC_ELM: train SC-ELM and output the SC-ELM-model and beneficial weight set.
    
-   optimize_weight: optimize output weights
+   optimize_weight: optimize output weights.
+   
+   Test_SC_ELM: output predicted image patches and different evaluation indexes.
 
  ## Contact us
      
-   Comments and criticism are greatly welcomed
+   Comments and criticism are greatly welcomed.
      
    E-mail: sy.neu.lsq@gmail.com
