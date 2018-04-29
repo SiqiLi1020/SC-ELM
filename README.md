@@ -13,7 +13,8 @@
    Cut_patch: perform white balance for each RGB image and convert it to gray. <br>　　　　　 Then outputs image patches via setting patch size.
       
    Cat_patches: spell image patches into a gray image with original size. 
-     
+      
+   Train_SC_ELM: 
 
  ## Contact us
      
